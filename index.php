@@ -10,4 +10,11 @@
 </head>
 <body style="background-color: #2a2b2c;">
     <?php include 'menu.php';?> 
+    <div>
+        <div class="tarjeta">
+            <p>
+                prueba parrafo
+            </p>
+        </div>
+    </div>
 </html>
