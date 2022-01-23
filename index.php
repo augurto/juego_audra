@@ -10,22 +10,22 @@
 </head>
 <body>
 	<div class="sidebar">
-		<div class="logo"><h4>LOGO</h4></div>
+		<div class="logo"><h4>Audra</h4></div>
 		<nav>
 			<ul>
 				<li>
-				<a href="#">Home</a>
+				<a href="#">Inicio</a>
 				<ul class="cap_2">
-					<li>1QUE</li>
-					<li>2QUE</li>
-					<li>3QUE</li>
+					<li>link1.1</li>
+					<li>link1.2</li>
+					<li>link1.3</li>
 				</ul>
 				</li>
-				<li><a href="#">Daxua</a></li>
-				<li><a href="#">Teemo</a></li>
-				<li><a href="#">Fizz</a></li>
-				<li><a href="#">Sona</a></li>
-				<li><a href="#">Soraka</a></li>
+				<li><a href="#">link1</a></li>
+				<li><a href="#">link2</a></li>
+				<li><a href="#">link3</a></li>
+				<li><a href="#">link4</a></li>
+				<li><a href="#">link5</a></li>
 			</ul>
 			<div class="icon">
 				<i class="fas fa-bars"></i>
