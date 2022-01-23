@@ -11,10 +11,12 @@
 <body style="background-color: #2a2b2c;">
     <?php include 'menu.php';?> 
     <div>
-        <div class="tarjeta">
-            <p class="letra_tarjeta">
-                prueba parrafo
-            </p>
-        </div>
+        <section class="section_tarjeta">
+            <div class="tarjeta">
+                <p class="letra_tarjeta">
+                    prueba parrafo
+                </p>
+            </div>
+        </section>
     </div>
 </html>

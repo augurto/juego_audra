@@ -73,7 +73,9 @@ li:hover ul.cap_2 {
     display: block;
 }
 
-.tarjeta{
+.section_tarjeta{
+    width: 500px;
+    height: 300px;
     background:darkorange;
     /* border-color: rgba(177, 177, 180, 0.801); */
     border: 1px solid rgb(63, 21, 250);
