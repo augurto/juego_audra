@@ -75,8 +75,11 @@ li:hover ul.cap_2 {
 
 .tarjeta{
     background-color: black;
-    border-color: rgba(177, 177, 180, 0.801);
+    /* border-color: rgba(177, 177, 180, 0.801); */
+    border-color: rgba(3, 3, 255, 0.801);
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
 }
 .letra_tarjeta{
     color: white;
