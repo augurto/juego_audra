@@ -74,9 +74,9 @@ li:hover ul.cap_2 {
 }
 
 .tarjeta{
-    background-color: black;
+    background:darkorange;
     /* border-color: rgba(177, 177, 180, 0.801); */
-    border-color: rgba(3, 3, 255, 0.801);
+    border: 1px solid rgb(63, 21, 250);
     border-radius: 15px;
     display: flex;
     justify-content: center;
