@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
-        <script src="js/menu.js"></script>
+       
 	</head>
 	<body>
 		<div class="container demo-1">
