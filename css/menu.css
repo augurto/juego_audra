@@ -78,7 +78,8 @@ li:hover ul.cap_2 {
     height: 600px;
     background:rgb(0, 0, 0);
     /* border-color: rgba(177, 177, 180, 0.801); */
-    border: 5px solid rgb(128, 127, 133);
+    border: 3px solid rgb(128, 127, 133);
+    box-shadow: 3px solid rgb(128, 127, 133);
     border-radius: 20px;
     display: flex;
     justify-content: center;
