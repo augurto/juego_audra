@@ -12,7 +12,7 @@
     <?php include 'menu.php';?> 
     <div>
         <div class="tarjeta">
-            <p>
+            <p class="letra_tarjeta">
                 prueba parrafo
             </p>
         </div>

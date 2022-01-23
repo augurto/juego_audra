@@ -72,6 +72,15 @@ li{
 li:hover ul.cap_2 {
     display: block;
 }
+
+.tarjeta{
+    background-color: black;
+    border-color: rgba(177, 177, 180, 0.801);
+    border-radius: 15px;
+}
+.letra_tarjeta{
+    color: white;
+}
 @media(max-width:1000px){
     ul{
         display: none;
