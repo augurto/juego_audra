@@ -103,7 +103,7 @@ switch($action)
                     $result = mysqli_query($con,"SELECT descripcion_castigo FROM castigo ORDER BY rand() LIMIT 1;");
                     $row = mysqli_fetch_array($result);
                     $max = $row[0];
-                    $response['word'] = 'La palabra era : <b>' . $_SESSION['word'].'<br>'.$max . '</b>';
+                    $response['word'] = 'La palabra era : <b>' . $_SESSION['word'].'<br>'.'<br>'.'Por perder : '.$max . '</b>';
                     /* $response_castigo['word'] = 'Por perder : <b>' . $max . '</b>'; */
                     
                 }             
