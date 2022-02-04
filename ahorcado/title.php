@@ -6,9 +6,14 @@
     <head>
         <title>Ahorcado</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            .div_general{
+                background-color: black;
+            }
+        </style>
     </head>
     <body>
-         <div id="hangman-div" class="div_general">
+         <div id="hangman-div" class="div_general" >
             <form action="controller.php" method="POST">
                <input type="hidden" name="action" value="1" />
                <!-- <img class="logo" src="images/logo.png" id="logo" /> -->
