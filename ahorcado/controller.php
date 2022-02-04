@@ -99,8 +99,11 @@ switch($action)
                 if($_SESSION['lives'] == 0)
                 {
                     $_SESSION['win'] = false;
-                    $ego= ("SELECT * FROM castigo ORDER BY rand() LIMIT 1");
-                    $response['word'] = 'La palabra era : <b>' . $_SESSION['word'] .$ego. '</b>';
+                   
+                    $result = mysqli_query($con,"SELECT descripcion_castigo FROM castigo ORDER BY rand() LIMIT 1;");
+                    $row = mysqli_fetch_array($result);
+                    $max = $row[0];
+                    $response['word'] = 'La palabra era : <b>' . $_SESSION['word'] .$max. '</b>';
                 }             
             }   
             else
