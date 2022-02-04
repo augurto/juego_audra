@@ -198,4 +198,7 @@ label
 		background-color: blue;
 	     border: 1px solid rgb(45, 240, 27);
 	}
+	.creditos{
+		color: chartreuse;
+	}
 }
