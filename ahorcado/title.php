@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hangman</title>
+        <title>Ahorcado</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
