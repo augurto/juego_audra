@@ -186,7 +186,7 @@ label
 	
 }   */
 @media (max-width: 600px) {
-	#credits{
+	.div_general{
 	  display: none;
 	}
 }

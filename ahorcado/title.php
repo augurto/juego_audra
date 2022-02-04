@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-         <div id="hangman-div">
+         <div id="hangman-div" class="div_general">
             <form action="controller.php" method="POST">
                <input type="hidden" name="action" value="1" />
                <img src="images/logo.png" id="logo" />
