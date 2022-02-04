@@ -189,4 +189,7 @@ label
 	.div_general{
 	  display: none;
 	}
+	.logo{
+		display: none;
+	}
 }
