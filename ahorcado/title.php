@@ -6,18 +6,9 @@
     <head>
         <title>Ahorcado</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <style>
-            @media (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
-         /*    @media  all and  (max-width: 800px){
-            .div_general{
-                background-color: black;
-            }
-        } */
-        </style>
+   
+         <link rel="stylesheet" media="only screen and (max-width: 768px)" href="style_responsive.css">    
+ 
     </head>
     <body>
          <div id="hangman-div" class="div_general" >
