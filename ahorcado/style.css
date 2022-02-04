@@ -185,9 +185,11 @@ label
 
 	
 }   */
-@media (max-width: 600px) {
+
+	@media (max-width: 800px){
 	.div_general{
-	  display: none;
+	  background-color: blue;
+	     border: 1px solid rgb(45, 240, 27);
 	}
 	.logo{
 		display: none;
