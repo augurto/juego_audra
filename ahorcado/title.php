@@ -25,7 +25,7 @@
                          </span>
                     </div>
                     <div class="boton_jugar">
-                        <input type="submit" value="Jugar" id="submit-button" />
+                        <input type="submit" style="background-color: blueviolet;" value="Jugar" id="submit-button" />
                     </div>
                 </div>
             </form>
