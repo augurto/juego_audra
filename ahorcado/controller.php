@@ -7,7 +7,8 @@
  * @copyright 2015 Oligalma
  * @license GPL License
  */
-require_once ("../config/conexion.php");
+require_once ("config/conexion.php");
+require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
 session_start();
 
 if(isset($_GET['action']))
