@@ -104,7 +104,8 @@ switch($action)
                     $row = mysqli_fetch_array($result);
                     $max = $row[0];
                     $response['word'] = 'La palabra era : <b>' . $_SESSION['word'] . '</b>';
-                    echo "$max";
+                    $response['word'] = 'Por perder debes : <b>' . $max . '</b>';
+                    
                 }             
             }   
             else
