@@ -11,7 +11,7 @@
          <div id="hangman-div" class="div_general">
             <form action="controller.php" method="POST">
                <input type="hidden" name="action" value="1" />
-               <img class="logo" src="images/logo.png" id="logo" />
+               <!-- <img class="logo" src="images/logo.png" id="logo" /> -->
                 <span id="credits">Desarrollado por: <a href="https://audra.tech" target="_blank">Audra.tech</a></span>
                 <div class="center">
                     <div id="levels-div">
@@ -24,7 +24,7 @@
                                 <label for="level_2">Dificil como tu crush: puedes fallar 3 veces.</label>
                          </span>
                     </div>
-                    <div>
+                    <div class="boton_jugar">
                         <input type="submit" value="Jugar" id="submit-button" />
                     </div>
                 </div>
