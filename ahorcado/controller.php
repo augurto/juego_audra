@@ -7,7 +7,7 @@
  * @copyright 2015 Oligalma
  * @license GPL License
  */
-
+require_once ("../config/conexion.php");
 session_start();
 
 if(isset($_GET['action']))
@@ -98,7 +98,7 @@ switch($action)
                 if($_SESSION['lives'] == 0)
                 {
                     $_SESSION['win'] = false;
-                    $ego="perdiste p compadre";
+                    $ego= ("SELECT * FROM castigo ORDER BY rand() LIMIT 1");
                     $response['word'] = 'La palabra era : <b>' . $_SESSION['word'] .$ego. '</b>';
                 }             
             }   
