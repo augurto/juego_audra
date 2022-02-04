@@ -7,11 +7,16 @@
         <title>Ahorcado</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <style>
-            @media  all and  (max-width: 800px){
+            @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+         /*    @media  all and  (max-width: 800px){
             .div_general{
                 background-color: black;
             }
-        }
+        } */
         </style>
     </head>
     <body>
